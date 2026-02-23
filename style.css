@@ -116,3 +116,62 @@ p {
 #generate-btn:active {
     transform: scale(0.98);
 }
+
+.contact-section {
+    margin-top: 60px;
+    padding-top: 40px;
+    border-top: 1px solid var(--secondary-text);
+    text-align: left;
+}
+
+.contact-section h2 {
+    font-size: 1.5rem;
+    color: var(--text-color);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: var(--text-color);
+}
+
+.form-group input, 
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: var(--container-bg);
+    color: var(--text-color);
+    box-sizing: border-box;
+    font-family: inherit;
+}
+
+[data-theme='dark'] .form-group input, 
+[data-theme='dark'] .form-group textarea {
+    border-color: #444;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: var(--accent-color);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+
+.submit-btn:hover {
+    opacity: 0.9;
+}

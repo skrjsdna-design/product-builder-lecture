@@ -124,11 +124,18 @@ p {
     text-align: left;
 }
 
-.contact-section h2 {
+.contact-section h2, .comments-section h2 {
     font-size: 1.5rem;
     color: var(--text-color);
     margin-bottom: 20px;
     text-align: center;
+}
+
+.comments-section {
+    margin-top: 60px;
+    padding-top: 40px;
+    border-top: 1px solid var(--secondary-text);
+    text-align: left;
 }
 
 .form-group {

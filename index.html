@@ -1,25 +1,28 @@
-
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lotto Number Generator</title>
+    <title>로또 번호 추천기</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
+    <div class="theme-toggle">
+        <button id="theme-btn">다크 모드</button>
+    </div>
     <div class="container">
         <header>
-            <h1>Lotto Number Generator</h1>
-            <p>Generate your lucky numbers for the next draw!</p>
+            <h1>로또 번호 추천기</h1>
+            <p>당신의 행운의 숫자를 확인해보세요!</p>
         </header>
         <main>
             <div class="lotto-display">
-                <div class="lotto-numbers">
-                    <!-- Numbers will be generated here -->
+                <div id="lotto-numbers" class="lotto-numbers">
+                    <!-- 숫자가 여기에 생성됩니다 -->
                 </div>
             </div>
-            <button id="generate-btn">Generate Numbers</button>
+            <button id="generate-btn">번호 생성하기</button>
         </main>
     </div>
     <script src="main.js"></script>

@@ -1,34 +1,27 @@
-# Lotto Number Recommendation Site
+# 로또 번호 추천 사이트 (Lotto Number Recommendation Site)
 
-## Overview
+## 개요 (Overview)
 
-This project is a simple web application that generates and displays recommended lottery numbers. The goal is to provide a clean, user-friendly interface for users to get their lucky numbers, with a focus on modern design and a great user experience.
+이 프로젝트는 사용자에게 행운의 로또 번호를 생성해주는 심플하고 현대적인 웹 애플리케이션입니다. 사용자 친화적인 인터페이스와 세련된 디자인을 통해 즐거운 사용자 경험을 제공하는 것을 목표로 합니다.
 
-## Design & Features
+## 디자인 및 기능 (Design & Features)
 
-*   **Lotto Number Generation:** Generates 6 unique random numbers between 1 and 45.
-*   **Modern UI:** A visually appealing and responsive design that incorporates a vibrant color palette, modern typography, and a subtle background texture.
-*   **Engaging Animations:** The numbers animate into view when generated, creating a dynamic user experience.
-*   **Interactive Elements:** The "Generate" button has a "glow" effect on hover to provide clear visual feedback.
-*   **Accessibility:** The application uses a semantic HTML structure, making it accessible to screen readers.
-*   **Immediate Content:** Numbers are displayed on the initial page load.
+*   **로또 번호 생성:** 1부터 45 사이의 중복되지 않는 6개의 숫자를 생성합니다.
+*   **다크 모드 & 라이트 모드:** 사용자의 선호에 따라 화면 테마를 전환할 수 있는 기능을 제공합니다.
+*   **한국어 지원:** 모든 인터페이스 텍스트를 한국어로 제공하여 국내 사용자의 편의성을 높였습니다.
+*   **현대적인 UI:** 깔끔한 레이아웃, 세련된 색상 조합, 부드러운 애니메이션 효과를 적용했습니다.
+*   **반응형 디자인:** 모바일과 데스크톱 등 다양한 기기에서 최적화된 화면을 보여줍니다.
 
-## Project Structure
+## 프로젝트 구조 (Project Structure)
 
-*   `index.html`: The main HTML file.
-*   `style.css`: The stylesheet for the application.
-*   `main.js`: The JavaScript file containing the application logic.
-*   `blueprint.md`: This file, documenting the project.
+*   `index.html`: 메인 HTML 구조 및 콘텐츠.
+*   `style.css`: 애플리케이션의 스타일 및 테마 정의.
+*   `main.js`: 번호 생성 로직 및 테마 전환 기능.
+*   `blueprint.md`: 프로젝트 문서 및 계획서.
 
-## Current Plan: UI/UX Enhancement
+## 현재 작업 계획 (Current Action Plan)
 
-*   **Update `index.html`:** Link the 'Poppins' Google Font and refine the page structure.
-*   **Enhance `style.css`:**
-    *   Define a new color palette using CSS variables.
-    *   Apply a background texture to the body.
-    *   Improve typography and spacing for a cleaner layout.
-    *   Add `@keyframes` for number animations.
-    *   Create a "glow" effect for the button using `box-shadow`.
-*   **Refactor `main.js`:**
-    *   Modify the script to dynamically create and append number elements to allow animations to re-trigger.
-    *   Ensure numbers are generated and displayed on the initial page load.
+1.  **언어 변경:** `index.html`의 텍스트를 한국어로 수정합니다.
+2.  **테마 기능 추가:** 다크 모드와 라이트 모드를 위한 CSS 변수와 전환 버튼을 추가합니다.
+3.  **기능 개선:** 번호 생성 버튼 클릭 시 숫자가 화면에 표시되도록 JavaScript 로직을 보완합니다.
+4.  **배포:** 변경 사항을 Git에 커밋하고 GitHub 리포지토리에 푸시합니다.
